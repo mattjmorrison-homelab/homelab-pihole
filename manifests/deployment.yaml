@@ -21,7 +21,7 @@ spec:
           env:
             - name: TZ
               value: "America/Chicago"
-            - name: WEBPASSWORD
+            - name: FTLCONF_webserver_api_password
               value: ""
             - name: FTLCONF_webserver_port
               value: "8080"
