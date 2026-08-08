@@ -23,6 +23,8 @@ spec:
               value: "America/Chicago"
             - name: WEBPASSWORD
               value: ""
+            - name: FTLCONF_webserver_port
+              value: "8080"
             - name: PIHOLE_DNS_1
               value: "1.1.1.1"
             - name: PIHOLE_DNS_2
