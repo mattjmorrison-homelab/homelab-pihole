@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pihole-local-dns
+  namespace: pihole
+data:
+  05-local-dns.conf: |
+    address=/argocd.morrisons.site/192.168.86.72
+    address=/prometheus.morrisons.site/192.168.86.72
+    address=/alertmanager.morrisons.site/192.168.86.72
+    address=/grafana.morrisons.site/192.168.86.72
+    address=/openbao.morrisons.site/192.168.86.72
+    address=/home-assistant.morrisons.site/192.168.86.72
+    address=/pihole.morrisons.site/192.168.86.72
+    address=/homelab.morrisons.site/192.168.86.72
