@@ -6,10 +6,18 @@ metadata:
 data:
   05-local-dns.conf: |
     address=/argocd.morrisons.site/192.168.86.72
+    address=/argocd.morrisons.site/::
     address=/prometheus.morrisons.site/192.168.86.72
+    address=/prometheus.morrisons.site/::
     address=/alertmanager.morrisons.site/192.168.86.72
+    address=/alertmanager.morrisons.site/::
     address=/grafana.morrisons.site/192.168.86.72
+    address=/grafana.morrisons.site/::
     address=/openbao.morrisons.site/192.168.86.72
+    address=/openbao.morrisons.site/::
     address=/home-assistant.morrisons.site/192.168.86.72
+    address=/home-assistant.morrisons.site/::
     address=/pihole.morrisons.site/192.168.86.72
+    address=/pihole.morrisons.site/::
     address=/homelab.morrisons.site/192.168.86.72
+    address=/homelab.morrisons.site/::
