@@ -29,6 +29,8 @@ spec:
               value: "1.1.1.1"
             - name: PIHOLE_DNS_2
               value: "8.8.8.8"
+            - name: FTLCONF_misc_etc_dnsmasq_d
+              value: "true"
           ports:
             - containerPort: 53
               protocol: UDP
