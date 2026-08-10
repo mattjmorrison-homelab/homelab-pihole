@@ -13,6 +13,8 @@ data:
     address=/home-assistant.morrisons.site/192.168.86.72
     address=/pihole.morrisons.site/192.168.86.72
     address=/homelab.morrisons.site/192.168.86.72
+    address=/registry.morrisons.site/192.168.86.72
+    address=/woodpecker.morrisons.site/192.168.86.72
     filter-AAAA
     filter-rr=HTTPS
     filter-rr=SVCB
