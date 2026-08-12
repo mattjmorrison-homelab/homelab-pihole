@@ -5,16 +5,16 @@ metadata:
   namespace: pihole
 data:
   05-local-dns.conf: |
-    address=/argocd.morrisons.site/192.168.86.72
-    address=/prometheus.morrisons.site/192.168.86.72
-    address=/alertmanager.morrisons.site/192.168.86.72
-    address=/grafana.morrisons.site/192.168.86.72
-    address=/openbao.morrisons.site/192.168.86.72
-    address=/home-assistant.morrisons.site/192.168.86.72
-    address=/pihole.morrisons.site/192.168.86.72
-    address=/homelab.morrisons.site/192.168.86.72
-    address=/registry.morrisons.site/192.168.86.72
-    address=/woodpecker.morrisons.site/192.168.86.72
+    address=/argocd.morrisons.site/192.168.68.84
+    address=/prometheus.morrisons.site/192.168.68.84
+    address=/alertmanager.morrisons.site/192.168.68.84
+    address=/grafana.morrisons.site/192.168.68.84
+    address=/openbao.morrisons.site/192.168.68.84
+    address=/home-assistant.morrisons.site/192.168.68.84
+    address=/pihole.morrisons.site/192.168.68.84
+    address=/homelab.morrisons.site/192.168.68.84
+    address=/registry.morrisons.site/192.168.68.84
+    address=/woodpecker.morrisons.site/192.168.68.84
     filter-AAAA
     filter-rr=HTTPS
     filter-rr=SVCB
