@@ -15,6 +15,7 @@ data:
     address=/homelab.morrisons.site/192.168.68.84
     address=/registry.morrisons.site/192.168.68.84
     address=/woodpecker.morrisons.site/192.168.68.84
+    address=/hdmi-switch.morrisons.site/192.168.68.84
     filter-AAAA
     filter-rr=HTTPS
     filter-rr=SVCB
