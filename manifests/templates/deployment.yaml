@@ -14,12 +14,14 @@ spec:
     metadata:
       labels:
         app: pihole
+      annotations:
+        checksum/config: {{ include (print $.Template.BasePath "/configmap-local-dns.yaml") . | sha256sum }}
     spec:
       hostNetwork: true
       dnsPolicy: ClusterFirstWithHostNet
       containers:
         - name: pihole
-          image: pihole/pihole:latest
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           env:
             - name: TZ
               value: "America/Chicago"

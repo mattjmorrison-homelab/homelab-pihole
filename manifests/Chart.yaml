@@ -1,0 +1,5 @@
+apiVersion: v2
+name: homelab-pihole
+description: Network-wide ad blocking and local DNS
+version: 0.1.0
+appVersion: "latest"
