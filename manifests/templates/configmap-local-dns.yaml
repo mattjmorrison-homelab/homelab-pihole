@@ -17,6 +17,7 @@ data:
     address=/woodpecker.morrisons.site/192.168.68.84
     address=/hdmi-switch.morrisons.site/192.168.68.84
     address=/graphql.morrisons.site/192.168.68.84
+    address=/control.morrisons.site/192.168.68.84
     filter-AAAA
     filter-rr=HTTPS
     filter-rr=SVCB
