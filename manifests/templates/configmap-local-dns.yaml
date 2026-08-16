@@ -18,6 +18,8 @@ data:
     address=/hdmi-switch.morrisons.site/192.168.68.84
     address=/graphql.morrisons.site/192.168.68.84
     address=/control.morrisons.site/192.168.68.84
+    address=/pizero.local/192.168.68.93
+    address=/pi1.local/192.168.68.92
     filter-AAAA
     filter-rr=HTTPS
     filter-rr=SVCB
