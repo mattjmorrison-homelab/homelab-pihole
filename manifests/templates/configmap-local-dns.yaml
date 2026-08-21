@@ -21,6 +21,8 @@ data:
     address=/control.morrisons.site/192.168.68.84
     address=/pizero.local/192.168.68.93
     address=/pi1.local/192.168.68.92
+    address=/basementpc.local/192.168.68.78
+    address=/nevespc.local/192.168.68.99
     filter-AAAA
     filter-rr=HTTPS
     filter-rr=SVCB
