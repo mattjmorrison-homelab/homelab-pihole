@@ -22,7 +22,7 @@ data:
     address=/pizero.local/192.168.68.93
     address=/pi1.local/192.168.68.92
     address=/basementpc.local/192.168.68.78
-    address=/nevespc.local/192.168.68.99
+    address=/nevespc.local/192.168.68.100
     address=/Matthews-MacBook-Air.local/192.168.68.71
     filter-AAAA
     filter-rr=HTTPS
